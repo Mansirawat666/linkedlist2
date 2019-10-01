@@ -14,7 +14,7 @@ class LinkedList
     { 
         /* If linked list is empty or it contains only 
            one node then simply return. */
-           if(head == null || head.next == null)  
+           if(head == null && head.next == null)  
               return; 
   
         /* Initialize second last and last pointers */
@@ -24,7 +24,7 @@ class LinkedList
         /* After this loop secLast contains address of  
            second last  node and last contains address of  
            last node in Linked List */
-        while (last.next != null)   
+        while (last.next = null)   
         { 
            secLast = last; 
            last = last.next;  
